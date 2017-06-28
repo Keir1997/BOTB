@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Squada+One');
+@charset "utf-8";
+body {
+	font: 100% 'Squada One', cursive;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000;
+}
+.middling {
+	text-align: center;
+}
+
+#Socialmedia {
+	float: right;
+}
+
+.oneColFixCtrHdr #container {
+	width: 780px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: 005C73;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000; /* this overrides the text-align: center on the body element. */
+	font-size: 24px;
+	word-spacing: inherit;
+	letter-spacing: normal;
+}
+.contactustext {
+}
+
+
+.oneColFixCtrHdr #header {
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	background-color: #007A98;
+	text-align: left;
+}
+.oneColFixCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+	background: 005C73;
+	font-size: 48px;
+}
+#header a:link {
+	color: #000000;
+	text-decoration: none;
+}
+#header a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+#header a:hover {
+	color: #000;
+	text-decoration: line-through;
+}
+
+
+.oneColFixCtrHdr #mainContent {
+	padding: 0 20px;
+	background-color: #0070BA;
+	text-align: centre;
+}
+.oneColFixCtrHdr #footer {
+	padding: 0 10px;
+	background-color: #007A98;
+}
+.oneColFixCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}#Title {
+	text-align: left;
+}
+#Findus {
+	text-align: center;
+}
+.colour {
+	color: #F0F;
+}
+.colour {
+	color: #F00;
+}
+#container #mainContent {
+	font-size: 12px;
+	text-align: left;
+}
+.Contactustext {
+	color: #000;
+	font-size: 18px;
+}
+.Hometext {
+	color: #000;
+	font-size: 18px;
+}
+.LocationText {
+	color: #000;
+	font-size: 18px;
+}
+.titles {
+	color: #000;
+	font-size: 25px;
+}
+p {
+}
