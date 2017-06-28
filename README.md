@@ -1,2 +1,0 @@
-# BOTB
-Battle of Bands
